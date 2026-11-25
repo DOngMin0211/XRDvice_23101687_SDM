@@ -9,7 +9,7 @@ public class ButtonSpawner : MonoBehaviour
     public GameObject batteryPrefab;
 
     [Header("생성 위치")]
-    public Vector3 spawnPosition = new Vector3(3f, 3f, -1.25f);
+    public Vector3 spawnPosition = new Vector3(4.35f, 3.5f, -1.25f);
 
     [Header("버튼 위치")]
     public float startY = 0.3f;

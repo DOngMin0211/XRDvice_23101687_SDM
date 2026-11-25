@@ -10,10 +10,6 @@ public class Battery : MonoBehaviour
     public void DecreaseBattery(float amount)
     {
         batteryAmount -= amount;
-
-        // 최소값 0으로 제한
-        batteryAmount = Mathf.Max(0, batteryAmount);
-
-        Debug.Log("현재 배터리량 : " + batteryAmount);
+        batteryAmount = Mathf.Max(0f, batteryAmount);
     }
 }
